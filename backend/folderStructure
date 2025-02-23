@@ -1,0 +1,24 @@
+flow-to-code-backend/
+│
+├── config/
+│   └── db.js             # MongoDB Connection
+│
+├── controllers/
+│   └── flowController.js  # Handles flowchart processing
+│
+├── models/
+│   └── Flow.js           # Stores flowchart metadata
+│
+├── routes/
+│   └── flowRoutes.js      # API routes for flowchart processing
+│
+├── services/
+│   └── codeGenerator.js  # Converts flowchart JSON into real code
+│
+├── templates/
+│   ├── expressTemplate.js # Generates Express.js boilerplate
+│   ├── reactTemplate.js   # Generates React frontend boilerplate
+│
+├── .env                  # Environment variables
+├── server.js             # Server entry point
+└── package.json          # Dependencies & scripts
